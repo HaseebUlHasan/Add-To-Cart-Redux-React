@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  width:100%;
+  height:70px;
+  background-color:rgb(67, 67, 247);
+  border:1px solid black;
+
+}
+h3{
+  color:white;
+  margin-left: 40px;
+}
+
+a{
+  margin-right: 40px;
+  background-color: #e7e7e7; 
+  border: none;
+  color: rgb(46, 44, 44);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product{
+ display: flex;
+ flex-wrap: wrap;
+ margin : 30px;
+ justify-content: space-between;
+}
+
+.cart{
+  display: flex;
+  justify-items: center;
+  margin-left : 400px;
+  float:left;
+}
+.calcuation{
+float:left;
+border: 1px solid black;
+border-radius: 30px;
+width: 30%;
+height: 350px;
+margin-left: 250px;
+}
+
+.cartItem{
+  float: left;
+  border:1px solid black;
+  border-radius: 30px;
+  width : 50%;
+  height : auto;
+  margin-left: 10px;
+  padding: 20px;
+}
+.total{
+  float: left;
+  border:1px solid black;
+  border-radius: 30px;
+  margin-left: 250px;
+  width : 25%;
+  height : 400px;
+}
